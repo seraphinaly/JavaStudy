@@ -1,4 +1,4 @@
-/*
+   /*
  * 자바에서 사용하는 데이터형(자료형) => 메모리의 크기 지정(범위를 보고 가장 큰 것을 기준으로 지정)
  *   컴퓨터는 0,1만 인식 -> bit
  * 정수
@@ -22,7 +22,7 @@
  *     수학: byte, short, int, long 모두 가능 ==> int
  *     영어: byte, short, int, long 모두 가능 ==> int
  *     총점: short, int, long 모두 가능 ==> int
- *     
+ * 
  * 실수
  *   = float ==> 4byte(소수점 6자리)
  *   = double(default) ==> 8byte(소수점 15자리)

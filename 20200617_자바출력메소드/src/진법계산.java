@@ -11,6 +11,5 @@ public class 진법계산 {
 		System.out.println(0360);
 		System.out.println(0b11110000); 
 	    System.out.println(~100); //음수표현
-		
     }
 }
