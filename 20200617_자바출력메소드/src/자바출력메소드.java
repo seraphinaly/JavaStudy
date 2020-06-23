@@ -27,12 +27,12 @@ public class 자바출력메소드 {
 		   * 080.00
 		   */
 	
-	      System.out.printf("%.1f\n",80.55);
+	      System.out.printf("%.1f\n",80.55); //80.6
 	      
 	      int a=2;
 	      int b=2;
 	      System.out.println(a+"*"+b+"="+a*b);
-	      System.out.printf("%d*%d=%d",a,b,a*b); 		
+	      System.out.printf("%d*%d=%d\n",a,b,a*b); 		
 	     
 	      /*
 	       *  %d 정수
