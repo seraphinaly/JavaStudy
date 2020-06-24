@@ -2,13 +2,13 @@ import javax.swing.*;
 import java.awt.*;
 
 public class GameView extends JPanel{
-    Image back,air;
+    Image back,rocket;
     int x=15,y=15;
     public GameView()
     {
     	back=Toolkit.getDefaultToolkit().
     			getImage("c:\\javaDev\\back.jpg");
-    	air=Toolkit.getDefaultToolkit().
+    	rocket=Toolkit.getDefaultToolkit().
     			getImage("c:\\javaDev\\rocket.png");
     			
     }
