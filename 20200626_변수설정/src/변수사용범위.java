@@ -14,31 +14,35 @@
 public class 변수사용범위{
 
 	public static void main(String[] args){
-//		int i=2;
-//		for(i=2; i<=10; i++){
-//			System.out.println("i="+i);
-//		} //i는 삭제
-//		System.out.println("i="+i);
-//		System.gc(); //메모리 회수(가비지 컬렉션)
+		//		int i=2;
+		//		for(i=2; i<=10; i++){
+		//			System.out.println("i="+i);
+		//		} //i는 삭제
+		//		System.out.println("i="+i);
+		//		System.gc(); //메모리 회수(가비지 컬렉션)
+
 		
-	      int i=1;
-	      for(i=1;i<=5;i++) {
-	         System.out.print(i+" ");
-	      }
-	      System.out.println();
-	      i=1;
-	      while(i<=5) {
-	         System.out.print(i+" ");
-	         i++;
-	      }
-	      System.out.println();
-	      i=1;
-	      do {
-	         System.out.print(i+" ");
-	         i++;
-	      }while(i<=5);
-		
+		int i=1;
+	  //for문
+		for(i=1; i<=5; i++){
+			System.out.print(i+" ");
 		}
+		System.out.println();
+
+	  //while문  
+		i=1;
+		while(i<=5){
+			System.out.print(i+" ");
+			i++;
+		}
+		System.out.println();
+
+	  //do~while문  
+		i=1;
+		do{
+			System.out.print(i+" ");
+			i++;
+		} while(i<=5);
+
 	}
-
-
+}
