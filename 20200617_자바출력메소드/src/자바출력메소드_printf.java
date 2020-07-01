@@ -1,5 +1,5 @@
 
-public class 자바출력메소드 {
+public class 자바출력메소드_printf {
 
 	public static void main(String[] args) {
 		
