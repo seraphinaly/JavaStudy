@@ -46,7 +46,7 @@ public class 자바배열1_요일출력{
 		int[] lastDay={31,28,31,30,31,30,
 					   31,31,30,31,30,31};
 		//2월=> 28/29
-		if((year%4==0&&year%200!=0)||(year%400==0)){
+		if((year%4==0&&year%100!=0)||(year%400==0)){
 			lastDay[1]=29;
 		}else {
 			lastDay[1]=28;
