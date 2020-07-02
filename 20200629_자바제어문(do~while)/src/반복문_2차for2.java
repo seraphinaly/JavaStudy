@@ -18,9 +18,9 @@ public class 반복문_2차for2{
 		
 		System.out.println();
 		
-		for(i=1;i<=5;i++) {
+
 			
 		}
 	}
 
-}
+

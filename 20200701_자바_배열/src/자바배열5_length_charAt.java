@@ -5,7 +5,7 @@
  *	  double[] d => 통계,빈도수,레이팅
  *	 boolean[] b => 존재 여부
  */
-public class 자바배열5_용도4{
+public class 자바배열5_length_charAt{
 
 	public static void main(String[] args){
 		String[] s= {
