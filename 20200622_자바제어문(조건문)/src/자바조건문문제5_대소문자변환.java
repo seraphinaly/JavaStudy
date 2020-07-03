@@ -1,4 +1,4 @@
-public class 자바조건문문제5 {
+public class 자바조건문문제5_대소문자변환 {
   //대소문자 변환
 	public static void main(String[] args) {
 		char alpha='J';

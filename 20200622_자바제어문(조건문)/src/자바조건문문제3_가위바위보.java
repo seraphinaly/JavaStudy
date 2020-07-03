@@ -4,7 +4,7 @@
  * 2면:   보
  */
 import java.util.*;
-public class 자바조건문문제3 {
+public class 자바조건문문제3_가위바위보 {
 
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);

@@ -1,5 +1,5 @@
 import java.util.*;
-public class 자바조건문문제4 {
+public class 자바조건문문제4_최대최소값 {
 
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);

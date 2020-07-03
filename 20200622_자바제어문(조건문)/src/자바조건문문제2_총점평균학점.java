@@ -10,7 +10,7 @@
  * ÃÑÁ¡ 240, Æò±Õ 80.0, ÇÐÁ¡ B
  */
 import java.util.*;
-public class ÀÚ¹ÙÁ¶°Ç¹®¹®Á¦2 {
+public class ÀÚ¹ÙÁ¶°Ç¹®¹®Á¦2_ÃÑÁ¡Æò±ÕÇÐÁ¡ {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class 제어문_단일조건문 {
+public class 제어문_단일조건문_쌀집계산기 {
 //정수 2개, char 1(+,-,*,/) 사칙연산
 	public static void main(String[] args) {
 		int a, b, c; //a,b: 사용자입력, c:연산결과 저장
