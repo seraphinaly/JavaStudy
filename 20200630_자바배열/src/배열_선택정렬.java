@@ -37,7 +37,7 @@ public class 배열_선택정렬{
 		System.out.println("\n내림차순 정렬 후:");
 		for(int i=0; i<arr.length-1; i++){
 			for(int j=i+1; j<arr.length; j++){ //j:비교하는 숫자, i번째의 오른쪽=>i+1
-				if(arr[i]<arr[j]){   //현재 DESC, 부등호 방향 '>' : ASC
+				if(arr[i]<arr[j]){   
 					int tmp=arr[i];
 					arr[i]=arr[j];
 					arr[j]=tmp;
