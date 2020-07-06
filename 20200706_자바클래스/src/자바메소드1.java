@@ -57,13 +57,13 @@ public class 자바메소드1{
 	}
 	
 	public static void main(String[] args){
-		Scanner sc=new Scanner(System.in);
-		System.out.print("정수 입력:");
-		int dan=sc.nextInt();
-		//구구단 출력할 메소드 호출
-		구구단2(dan);
-		
-		String s=구구단1(9); //메소드에 dan=9 넘겨주고, 수행된 결과값을 String s에 저장한 후 다음문장으로 넘어감
+//		Scanner sc=new Scanner(System.in);
+//		System.out.print("정수 입력:");
+//		int dan=sc.nextInt();
+//		//구구단 출력할 메소드 호출
+//		구구단2(dan);
+//		
+//		String s=구구단1(9); //메소드에 dan=9 넘겨주고, 수행된 결과값을 String s에 저장한 후 다음문장으로 넘어감
 		System.out.println(s);
 		for(int i=2;i<=9;i++) {
 			String s=구구단1(i); //반복기능 제거
