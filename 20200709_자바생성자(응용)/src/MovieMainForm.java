@@ -8,7 +8,7 @@ import java.awt.event.*; //버튼 누르기,텍스트에 엔터=>행위(이벤트)
 import java.net.URL;
 //자바에서 지원하는 윈도우의 모든 기능을 사용=>상속:extends JFrame(윈도우)
 //자바에서 상속은 한 개만 가능(단일 상속)
-
+//인터페이스:implements
 public class MovieMainForm extends JFrame implements ActionListener, MouseListener{
 	JMenuBar bar=new JMenuBar();
 	JMenuItem home=new JMenuItem("Home");
@@ -126,13 +126,13 @@ public class MovieMainForm extends JFrame implements ActionListener, MouseListen
 
 	@Override
 	public void mouseReleased(MouseEvent e){
-		// 놨을때
+		// 눌렀다 놨을때
 
 	}
 
 	@Override
 	public void mouseEntered(MouseEvent e){
-		// 위에 올려놨을때, mouseover
+		// 위에 올려놨을때, mouseover, 흰색으로 테두리생김
 		for(int i=0; i<2; i++){
 			for(int j=0; j<5; j++){
 				if(e.getSource()==ml.movie[i][j]){
@@ -145,7 +145,7 @@ public class MovieMainForm extends JFrame implements ActionListener, MouseListen
 
 	@Override
 	public void mouseExited(MouseEvent e){
-		// 원상복귀
+		// 원상복구, 마우스 내리면 테두리 없어짐
 		for(int i=0; i<2; i++){
 			for(int j=0; j<5; j++){
 				ml.movie[i][j].setBorder(null);

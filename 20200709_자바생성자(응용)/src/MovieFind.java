@@ -50,8 +50,9 @@ public class MovieFind extends JPanel{
 		
 		for(int i=0;i<5;i++) {
 			column=table.getColumnModel().getColumn(i);
+			//TableCellRenderer render=column.getCellRenderer();
 			if(i==0) {
-				column.setPreferredWidth(20);
+				column.setPreferredWidth(50);
 			}else if(i==1) {
 				column.setPreferredWidth(150);
 			}else if(i==2) {
