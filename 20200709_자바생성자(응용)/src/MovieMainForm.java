@@ -8,8 +8,9 @@ import java.awt.event.*; //버튼 누르기,텍스트에 엔터=>행위(이벤트)
 import java.net.URL;
 //자바에서 지원하는 윈도우의 모든 기능을 사용=>상속:extends JFrame(윈도우)
 //자바에서 상속은 한 개만 가능(단일 상속)
-//인터페이스:implements
+//인터페이스:implements       //상속
 public class MovieMainForm extends JFrame implements ActionListener, MouseListener{
+//포함 클래스=>변경불가(훨씬 많음, 상속은 하나밖에 못 받기 때문)
 	JMenuBar bar=new JMenuBar();
 	JMenuItem home=new JMenuItem("Home");
 	JMenuItem find=new JMenuItem("찾기");
