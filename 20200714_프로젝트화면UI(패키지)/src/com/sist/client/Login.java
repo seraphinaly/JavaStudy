@@ -37,8 +37,8 @@ public class Login extends JPanel{
 		pf.setBounds(830, 810, 150, 30);
 		add(la2); add(pf);
 		
-		b1=new JButton("로그인");
-		b2=new JButton("회원가입");
+		b1=new JButton("LOGIN");
+		b2=new JButton("JOIN");
 		JPanel p=new JPanel();//패널배치, 묶어서 가운데 한번에 배치
 		p.add(b1); p.add(b2);
 		p.setOpaque(false);//투명모드

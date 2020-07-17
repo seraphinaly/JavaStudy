@@ -22,9 +22,9 @@ public class RecipeMainFrame extends JFrame implements ActionListener{
 		setLayout(card);
 		
 		//화면추가
-		add("RM",rm);
 		add("LOGIN",login);
 		add("JOIN",join);
+		add("RM",rm);
 		setSize(1024, 960);
 		setVisible(true);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);//창 닫았을 때 메모리 회수(빨간버튼)
