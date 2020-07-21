@@ -40,6 +40,12 @@ public class ClientMainFrame extends JFrame implements ActionListener{
 		UIManager.setLookAndFeel("com.jtattoo.plaf.mcwin.McWinLookAndFeel"); 
 		new ClientMainFrame();
 	}
+	//라벨크기에 맞춰서 이미지를 딱 맞게 만들어줌
+	public static Image getImage(ImageIcon ii,int w,int h){
+    	Image dimg = ii.getImage().getScaledInstance(w, h,
+    	        Image.SCALE_SMOOTH);
+    	return dimg;
+    }
 	@Override//버튼처리
 	public void actionPerformed(ActionEvent e){
 		if(e.getSource()==mf.b1) {
