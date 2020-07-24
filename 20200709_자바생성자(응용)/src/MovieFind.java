@@ -20,7 +20,6 @@ public class MovieFind extends JPanel{
 		add(la);
 		
 		la2.setBounds(150, 75, 100, 35);
-		la2.setBounds(x, y, width, height);
 		add(la2);
 		tf.setBounds(205, 75, 300, 35);
 		add(tf);

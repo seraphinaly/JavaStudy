@@ -3,16 +3,92 @@ package detailScreen;
 public class DetailVO{
 	private String artist;
 	private String title;
+	private String discountRate;
 	private String price;
-	private int viewCount;
+	private String viewCount;
 	private String point;
-	private double grade;
+	private double grade;//별점
 	private String deliveryCost;
 	private String freeDelivery;
 	private String toArrival;
 	private String stock;
-	private int totalPrice;
+	private String totalPrice;
 	
 	//getter,setter 설정
+	
+	public String getArtist(){
+		return artist;
+	}
+	public String getDiscountRate(){
+		return discountRate;
+	}
+	public void setDiscountRate(String discountRate){
+		this.discountRate=discountRate;
+	}
+	public void setArtist(String artist){
+		this.artist=artist;
+	}
+	public String getTitle(){
+		return title;
+	}
+	public void setTitle(String title){
+		this.title=title;
+	}
+	public String getPrice(){
+		return price;
+	}
+	public void setPrice(String price){
+		this.price=price;
+	}
+	public int getViewCount(){
+		return viewCount;
+	}
+	public void setViewCount(int viewCount){
+		this.viewCount=viewCount;
+	}
+	public String getPoint(){
+		return point;
+	}
+	public void setPoint(String point){
+		this.point=point;
+	}
+	public double getGrade(){
+		return grade;
+	}
+	public void setGrade(double grade){
+		this.grade=grade;
+	}
+	public String getDeliveryCost(){
+		return deliveryCost;
+	}
+	public void setDeliveryCost(String deliveryCost){
+		this.deliveryCost=deliveryCost;
+	}
+	public String getFreeDelivery(){
+		return freeDelivery;
+	}
+	public void setFreeDelivery(String freeDelivery){
+		this.freeDelivery=freeDelivery;
+	}
+	public String getToArrival(){
+		return toArrival;
+	}
+	public void setToArrival(String toArrival){
+		this.toArrival=toArrival;
+	}
+	public String getStock(){
+		return stock;
+	}
+	public void setStock(String stock){
+		this.stock=stock;
+	}
+	public int getTotalPrice(){
+		return totalPrice;
+	}
+	public void setTotalPrice(int totalPrice){
+		this.totalPrice=totalPrice;
+	}
+	
+	
 	
 }
