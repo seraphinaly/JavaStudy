@@ -1,4 +1,5 @@
 package login;
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.FocusAdapter;
@@ -6,8 +7,8 @@ import java.awt.event.FocusEvent;
 import javax.swing.JTextField;
 
 public class HintTextField extends JTextField{
-	Font gainFont=new Font("Tahoma", Font.PLAIN, 15);
-	Font lostFont=new Font("Tahoma", Font.ITALIC, 15);
+	Font gainFont=new Font("함초롬돋움", Font.PLAIN, 15);
+	Font lostFont=new Font("함초롬돋움", Font.PLAIN, 15);
 
 	public HintTextField(final String hint){
 		setText(hint);

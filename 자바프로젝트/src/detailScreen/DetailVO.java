@@ -15,15 +15,8 @@ public class DetailVO{
 	private String totalPrice;
 	
 	//getter,setter ¼³Á¤
-	
 	public String getArtist(){
 		return artist;
-	}
-	public String getDiscountRate(){
-		return discountRate;
-	}
-	public void setDiscountRate(String discountRate){
-		this.discountRate=discountRate;
 	}
 	public void setArtist(String artist){
 		this.artist=artist;
@@ -34,16 +27,22 @@ public class DetailVO{
 	public void setTitle(String title){
 		this.title=title;
 	}
+	public String getDiscountRate(){
+		return discountRate;
+	}
+	public void setDiscountRate(String discountRate){
+		this.discountRate=discountRate;
+	}
 	public String getPrice(){
 		return price;
 	}
 	public void setPrice(String price){
 		this.price=price;
 	}
-	public int getViewCount(){
+	public String getViewCount(){
 		return viewCount;
 	}
-	public void setViewCount(int viewCount){
+	public void setViewCount(String viewCount){
 		this.viewCount=viewCount;
 	}
 	public String getPoint(){
@@ -82,13 +81,10 @@ public class DetailVO{
 	public void setStock(String stock){
 		this.stock=stock;
 	}
-	public int getTotalPrice(){
+	public String getTotalPrice(){
 		return totalPrice;
 	}
-	public void setTotalPrice(int totalPrice){
+	public void setTotalPrice(String totalPrice){
 		this.totalPrice=totalPrice;
-	}
-	
-	
-	
+	}	
 }
