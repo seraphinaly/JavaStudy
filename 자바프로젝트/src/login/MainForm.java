@@ -4,12 +4,12 @@ import javax.swing.*;
 import java.awt.*;
 
 public class MainForm extends JFrame{
-	private CardLayout card=new CardLayout();
+	CardLayout card=new CardLayout();
 	Login login=new Login();
 
 	public MainForm(){
-		add("LOGIN", login);
 		setLayout(card);
+		add("LOGIN", login);
 		//★★배경색 수정 예정
 		setBackground(Color.white);
 		setSize(1920, 1080);

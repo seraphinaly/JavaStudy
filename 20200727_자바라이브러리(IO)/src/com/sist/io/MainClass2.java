@@ -10,8 +10,7 @@ public class MainClass2{
 	 * 	w(write)
 	 * 	a(append)
 	 * FileOutputStream(1byte)
-	 * 	생성자 
-	 *  new FileOutputStream("경로명")
+	 * 	생성자
 	 *  new FileOutputStream("경로명",true/false) : false가 디폴트
 	 * FileWriter(2byte)
 	 */

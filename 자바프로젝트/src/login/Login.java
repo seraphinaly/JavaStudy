@@ -48,13 +48,13 @@ public class Login extends JPanel{
 		//로그인 버튼
 		b1=new JButton("로그인");
 		b1.setBounds(768, 405, 384, 40);
+		b1.setBackground(Color.orange);
 		add(b1);
-		b1.setOpaque(false);
 
 		//회원가입 버튼
 		b2=new JButton("회원가입");
 		b2.setBounds(768, 450, 384, 40);
+		b2.setBackground(Color.orange);
 		add(b2);
-		b2.setOpaque(false);
 	}
 }
